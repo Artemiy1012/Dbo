@@ -26,7 +26,7 @@ export function TableGroup() {
         }
     }, []);
     return (
-
+        <div className="table2">
         <table>
             <tr>
                 <th>
@@ -55,6 +55,6 @@ export function TableGroup() {
                 )
             })}
         </table>
-
+        </div>
     );
 }

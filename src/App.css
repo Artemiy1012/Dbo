@@ -5,14 +5,20 @@
 }
 
 table {
+  height: 150px;
   border-collapse: collapse;
   border-spacing: 0;
+  overflow-y: scroll;
+  width: 100%;
+  justify-content: center;
+  background-color: white;
 }
 thead, th{
   position: sticky;
   background-color: white;
   border: solid 1px black;
   top: 0;
+  background-color: lightgrey;
 }
 
 
@@ -29,26 +35,38 @@ tr .red {
   color: red;
 }
 
+.open{
+  margin-left:15px;
+}
 
-.App-header, .App-footer {
-  background-color: #282c34;
+.App-header{
+  background-color: #747984;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 14px;
+  color: white;
+}
+
+.App-footer {
+  background-color: #747984;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 12px;
+  font-size: 14px;
   color: white;
 }
-
-.App-content {
-  overflow-y: scroll;
-}
-
 
 .cont{
   width: 500px;
   height: calc(100% - 30px);
-  overflow-y: scroll;
+
+}
+
+.bias{
+  margin-left:45%;
 }
 
 .col{
@@ -56,5 +74,20 @@ tr .red {
 }
 
 .Checkbox1{
-display: inline;
+  margin-left:30%;
+
+  border: 1px solid black;
+  display: inline-block;
+
+  font-size: 14px;
 }
+
+.table1, table2{
+  margin-left:50%;
+  height:500px;
+  width:1000px;
+  overflow: auto;
+}
+
+
+

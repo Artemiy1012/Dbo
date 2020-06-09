@@ -74,7 +74,7 @@ export function Content() {
                 dataId={'showOutcome'}
             />
             </div>
-           <div>
+           <div className={"bias"}>
             <select onChange={onChangeSelect}>
                 <option>Без группировки</option>
                 <option>С группировкой</option>

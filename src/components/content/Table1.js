@@ -5,7 +5,7 @@ export function Table({showDate, showType,showTime,showOutcome,showIncome}) {
     const formatTime = (time) => time < 10 ? '0' + time : time;
     const formatMonth = (month) => month < 10 ? '0' + month : month;
     return (
-
+<div className="table1">
         <table>
             <thead>
             <tr>
@@ -49,6 +49,6 @@ export function Table({showDate, showType,showTime,showOutcome,showIncome}) {
                 )
             })}
         </table>
-
+</div>
     );
 }
