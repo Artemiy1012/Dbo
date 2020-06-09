@@ -1,0 +1,60 @@
+.App {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 10vh 1fr 10vh;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+thead, th{
+  position: sticky;
+  background-color: white;
+  border: solid 1px black;
+  top: 0;
+}
+
+
+td, th {
+  height: 25px;
+  border: 1px solid black;
+}
+
+tr .green {
+  color: green;
+}
+
+tr .red {
+  color: red;
+}
+
+
+.App-header, .App-footer {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: white;
+}
+
+.App-content {
+  overflow-y: scroll;
+}
+
+
+.cont{
+  width: 500px;
+  height: calc(100% - 30px);
+  overflow-y: scroll;
+}
+
+.col{
+  border-collapse: collapse;
+}
+
+.Checkbox1{
+display: inline;
+}
