@@ -4,7 +4,9 @@
   grid-template-rows: 10vh 1fr 10vh;
 }
 
+
 table {
+
   height: 150px;
   border-collapse: collapse;
   border-spacing: 0;
@@ -60,34 +62,31 @@ tr .red {
 }
 
 .cont{
-  width: 500px;
+  margin-left:15%;
+  margin-right:10%;
+  width: 1000px;
   height: calc(100% - 30px);
-
+  border-collapse: collapse;
 }
 
 .bias{
   margin-left:45%;
 }
 
-.col{
-  border-collapse: collapse;
-}
 
 .Checkbox1{
   margin-left:30%;
-
   border: 1px solid black;
   display: inline-block;
-
   font-size: 14px;
 }
 
 .table1, table2{
-  margin-left:50%;
+
   height:500px;
   width:1000px;
   overflow: auto;
-}
 
+}
 
 
